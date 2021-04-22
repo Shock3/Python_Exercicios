@@ -17,7 +17,9 @@ sal_percent = sal * 30 / 100
 parcelas = anos * 12
 prestação = casa / parcelas
 
-if prestação > sal_percent:
+if prestação >= sal_percent:
+    print(
+        f'A prestação fica R${prestação:.2f}, é mais que 30% do teu salário!')
     print('Emprestimos NEGADO')
 else:
     print('Empréstimo APROVADO')
