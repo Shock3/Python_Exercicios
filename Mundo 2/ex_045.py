@@ -1,4 +1,5 @@
 """
+Aula 012 - Interrompendo Repetições WHILE
 Crie um programa que faça o computador jogar Jokenpô com você.
 """
 from random import randrange

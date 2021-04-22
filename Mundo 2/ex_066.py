@@ -1,4 +1,5 @@
 """
+Aula 015 - Interrompendo Repetições WHILE
  Crie um programa que leia números inteiros pelo teclado. O programa
  só vai parar quando o usuário digitar o valor 999, que é a condição
  de parada. No final, mostre quantos números foram digitados
